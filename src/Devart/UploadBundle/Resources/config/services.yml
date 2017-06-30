@@ -2,6 +2,7 @@ services:
     upload.annotation_reader:
         class: Devart\UploadBundle\Annotation\UploadAnnotationReader
         arguments: ["@annotations.reader"]
-#    upload.example:
-#        class: Devart\UploadBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    upload.subscriber:
+        class: Devart\UploadBundle\Listener\UploadSubscriber
+        tags:
+            - { name: doctrine.event_subscriber, connection: default}

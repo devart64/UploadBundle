@@ -15,7 +15,7 @@ use Doctrine\Common\Annotations\Annotation\Target;
 * @Annotation
  * @Target("PROPERTY")
  */
-class UploadableFiled
+class UploadableField
 {
     /**
      * @var string

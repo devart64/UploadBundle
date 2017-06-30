@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69057e2d-a137-4c75-885a-3eeaec53d1dc" name="Default" comment="" />
+    <list default="true" id="69057e2d-a137-4c75-885a-3eeaec53d1dc" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableFiled.php" afterPath="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/upload.iml" afterPath="$PROJECT_DIR$/.idea/upload.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Post.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadAnnotationReader.php" afterPath="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadAnnotationReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,31 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+            <state relative-caret-position="116">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#36#82#0#PHP" expanded="true" />
               </folding>
@@ -90,13 +80,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PostType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+              <folding>
+                <element signature="e#34#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="1363">
               <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
               <folding>
                 <element signature="e#40#66#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadSubscriber.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Listener/UploadSubscriber.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#48#78#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,43 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadableFiled.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableFiled.php">
+      <file leaf-file-name="UploadableField.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableField.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadAnnotationReader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadAnnotationReader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1363">
-              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="1247">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,20 +153,25 @@
       <find>Post</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Form/PostType.php" />
         <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/Uploadable.php" />
         <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableFile.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Post.php" />
         <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableFiled.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadAnnotationReader.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadAnnotationReader.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/PostType.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Listener/UploadSuscriber.php" />
+        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableField.php" />
+        <option value="$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml" />
       </list>
     </option>
   </component>
@@ -184,13 +181,55 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1088" />
     <option name="y" value="-8" />
     <option name="width" value="1096" />
     <option name="height" value="1896" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -206,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,7 +360,19 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Devart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UploadBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Listener" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,23 +386,119 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Devart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UploadBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Devart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UploadBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Annotation" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunDashboard">
@@ -449,6 +596,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -487,12 +640,13 @@
       <workItem from="1498801130324" duration="41000" />
       <workItem from="1498801181752" duration="99000" />
       <workItem from="1498801288284" duration="62000" />
-      <workItem from="1498801357205" duration="7705000" />
+      <workItem from="1498801357205" duration="9352000" />
+      <workItem from="1498812279994" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8282000" />
+    <option name="totallyTimeSpent" value="13063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,13 +661,13 @@
     <frame x="-1088" y="-8" width="1096" height="1896" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06949807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18243243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295519" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,70 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -636,20 +726,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93d82c4b-a236-4af5-8b1f-2e495828dec7/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1334">
+          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+          <folding>
+            <element signature="e#36#82#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PostType.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        <state relative-caret-position="1218">
+          <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
           <folding>
-            <element signature="e#34#74#0#PHP" expanded="true" />
+            <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,20 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Post.php">
+    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableField.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-          <folding>
-            <element signature="e#36#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="667">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -688,18 +770,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableFiled.php">
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="1015">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93d82c4b-a236-4af5-8b1f-2e495828dec7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -714,13 +888,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PostType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Listener/UploadSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#48#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="1363">
           <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
           <folding>
             <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/Uploadable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Annotation/UploadableField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devart/UploadBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

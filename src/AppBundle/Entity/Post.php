@@ -3,7 +3,7 @@
 namespace AppBundle\Entity;
 
 use Devart\UploadBundle\Annotation\Uploadable;
-use Devart\UploadBundle\Annotation\UploadableFiled;
+use Devart\UploadBundle\Annotation\UploadableField;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 
@@ -47,7 +47,7 @@ class Post
     private $filename;
 
     /**
-     * @UploadableFiled(filename="filename", path="uploads")
+     * @UploadableField(filename="filename", path="uploads")
      */
     private $file;
 
