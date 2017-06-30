@@ -1,0 +1,7 @@
+services:
+    upload.annotation_reader:
+        class: Devart\UploadBundle\Annotation\UploadAnnotationReader
+        arguments: ["@annotations.reader"]
+#    upload.example:
+#        class: Devart\UploadBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
